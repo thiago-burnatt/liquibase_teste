@@ -6,7 +6,7 @@
                    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
     <changeSet  id="1"  author="thiago.burnatt">
-        <createTable  tableName="user">
+        <createTable  tableName="outra_table">
             <column  name="address"  type="varchar(255)"/>
         </createTable>
     </changeSet>
